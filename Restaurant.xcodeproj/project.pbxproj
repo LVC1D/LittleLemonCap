@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15264FD52ADC189A001B21EA /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FD42ADC189A001B21EA /* Onboarding.swift */; };
+		15264FD72ADC441E001B21EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FD62ADC441E001B21EA /* HomeView.swift */; };
+		15264FD92ADC44B0001B21EA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FD82ADC44B0001B21EA /* MenuView.swift */; };
+		15264FDB2ADC68E9001B21EA /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FDA2ADC68E9001B21EA /* UserProfileView.swift */; };
+		15264FDE2ADD0026001B21EA /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FDD2ADD0026001B21EA /* FetchedObjects.swift */; };
+		15264FE02ADD01B8001B21EA /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FDF2ADD01B8001B21EA /* MenuList.swift */; };
+		15264FE22ADD01C3001B21EA /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FE12ADD01C3001B21EA /* MenuItem.swift */; };
+		15264FE52ADDA47E001B21EA /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15264FE32ADDA47E001B21EA /* ExampleDatabase.xcdatamodeld */; };
+		15264FE82ADDAA72001B21EA /* Dish+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FE62ADDAA72001B21EA /* Dish+CoreDataClass.swift */; };
+		15264FE92ADDAA72001B21EA /* Dish+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FE72ADDAA72001B21EA /* Dish+CoreDataProperties.swift */; };
 		15A6404E2ADAA48B00B2C99C /* LittleLemonCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A6404D2ADAA48B00B2C99C /* LittleLemonCapApp.swift */; };
-		15A640502ADAA48B00B2C99C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A6404F2ADAA48B00B2C99C /* ContentView.swift */; };
 		15A640522ADAA48C00B2C99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A640512ADAA48C00B2C99C /* Assets.xcassets */; };
 		15A640552ADAA48C00B2C99C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A640542ADAA48C00B2C99C /* Preview Assets.xcassets */; };
 		15A640572ADAA48C00B2C99C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A640562ADAA48C00B2C99C /* Persistence.swift */; };
-		15A6405A2ADAA48C00B2C99C /* LittleLemonCap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15A640582ADAA48C00B2C99C /* LittleLemonCap.xcdatamodeld */; };
 		15A640642ADAA48C00B2C99C /* LittleLemonCapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A640632ADAA48C00B2C99C /* LittleLemonCapTests.swift */; };
 		15A6406E2ADAA48C00B2C99C /* LittleLemonCapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A6406D2ADAA48C00B2C99C /* LittleLemonCapUITests.swift */; };
 		15A640702ADAA48C00B2C99C /* LittleLemonCapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A6406F2ADAA48C00B2C99C /* LittleLemonCapUITestsLaunchTests.swift */; };
@@ -36,13 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15264FD42ADC189A001B21EA /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		15264FD62ADC441E001B21EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		15264FD82ADC44B0001B21EA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		15264FDA2ADC68E9001B21EA /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		15264FDD2ADD0026001B21EA /* FetchedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		15264FDF2ADD01B8001B21EA /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		15264FE12ADD01C3001B21EA /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		15264FE42ADDA47E001B21EA /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
+		15264FE62ADDAA72001B21EA /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
+		15264FE72ADDAA72001B21EA /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		15A6404A2ADAA48B00B2C99C /* LittleLemonCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A6404D2ADAA48B00B2C99C /* LittleLemonCapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonCapApp.swift; sourceTree = "<group>"; };
-		15A6404F2ADAA48B00B2C99C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15A640512ADAA48C00B2C99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15A640542ADAA48C00B2C99C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15A640562ADAA48C00B2C99C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		15A640592ADAA48C00B2C99C /* LittleLemonCap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleLemonCap.xcdatamodel; sourceTree = "<group>"; };
 		15A6405F2ADAA48C00B2C99C /* LittleLemonCapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonCapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A640632ADAA48C00B2C99C /* LittleLemonCapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonCapTests.swift; sourceTree = "<group>"; };
 		15A640692ADAA48C00B2C99C /* LittleLemonCapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonCapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +94,8 @@
 		15A640412ADAA48B00B2C99C = {
 			isa = PBXGroup;
 			children = (
+				15264FE62ADDAA72001B21EA /* Dish+CoreDataClass.swift */,
+				15264FE72ADDAA72001B21EA /* Dish+CoreDataProperties.swift */,
 				15A6404C2ADAA48B00B2C99C /* Restaurant */,
 				15A640622ADAA48C00B2C99C /* LittleLemonCapTests */,
 				15A6406C2ADAA48C00B2C99C /* LittleLemonCapUITests */,
@@ -99,10 +117,16 @@
 			isa = PBXGroup;
 			children = (
 				15A6404D2ADAA48B00B2C99C /* LittleLemonCapApp.swift */,
-				15A6404F2ADAA48B00B2C99C /* ContentView.swift */,
+				15264FD42ADC189A001B21EA /* Onboarding.swift */,
+				15264FD62ADC441E001B21EA /* HomeView.swift */,
+				15264FDA2ADC68E9001B21EA /* UserProfileView.swift */,
+				15264FDF2ADD01B8001B21EA /* MenuList.swift */,
+				15264FE32ADDA47E001B21EA /* ExampleDatabase.xcdatamodeld */,
+				15264FE12ADD01C3001B21EA /* MenuItem.swift */,
+				15264FDD2ADD0026001B21EA /* FetchedObjects.swift */,
+				15264FD82ADC44B0001B21EA /* MenuView.swift */,
 				15A640512ADAA48C00B2C99C /* Assets.xcassets */,
 				15A640562ADAA48C00B2C99C /* Persistence.swift */,
-				15A640582ADAA48C00B2C99C /* LittleLemonCap.xcdatamodeld */,
 				15A640532ADAA48C00B2C99C /* Preview Content */,
 			);
 			path = Restaurant;
@@ -263,10 +287,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15A6405A2ADAA48C00B2C99C /* LittleLemonCap.xcdatamodeld in Sources */,
+				15264FDB2ADC68E9001B21EA /* UserProfileView.swift in Sources */,
+				15264FD92ADC44B0001B21EA /* MenuView.swift in Sources */,
 				15A640572ADAA48C00B2C99C /* Persistence.swift in Sources */,
-				15A640502ADAA48B00B2C99C /* ContentView.swift in Sources */,
+				15264FDE2ADD0026001B21EA /* FetchedObjects.swift in Sources */,
+				15264FD52ADC189A001B21EA /* Onboarding.swift in Sources */,
+				15264FE52ADDA47E001B21EA /* ExampleDatabase.xcdatamodeld in Sources */,
+				15264FE82ADDAA72001B21EA /* Dish+CoreDataClass.swift in Sources */,
+				15264FD72ADC441E001B21EA /* HomeView.swift in Sources */,
+				15264FE02ADD01B8001B21EA /* MenuList.swift in Sources */,
 				15A6404E2ADAA48B00B2C99C /* LittleLemonCapApp.swift in Sources */,
+				15264FE22ADD01C3001B21EA /* MenuItem.swift in Sources */,
+				15264FE92ADDAA72001B21EA /* Dish+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,13 +632,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		15A640582ADAA48C00B2C99C /* LittleLemonCap.xcdatamodeld */ = {
+		15264FE32ADDA47E001B21EA /* ExampleDatabase.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				15A640592ADAA48C00B2C99C /* LittleLemonCap.xcdatamodel */,
+				15264FE42ADDA47E001B21EA /* ExampleDatabase.xcdatamodel */,
 			);
-			currentVersion = 15A640592ADAA48C00B2C99C /* LittleLemonCap.xcdatamodel */;
-			path = LittleLemonCap.xcdatamodeld;
+			currentVersion = 15264FE42ADDA47E001B21EA /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
