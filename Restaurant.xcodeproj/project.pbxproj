@@ -17,6 +17,7 @@
 		15264FE52ADDA47E001B21EA /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15264FE32ADDA47E001B21EA /* ExampleDatabase.xcdatamodeld */; };
 		15264FE82ADDAA72001B21EA /* Dish+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FE62ADDAA72001B21EA /* Dish+CoreDataClass.swift */; };
 		15264FE92ADDAA72001B21EA /* Dish+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15264FE72ADDAA72001B21EA /* Dish+CoreDataProperties.swift */; };
+		157813BA2AE545E6002229DF /* Little Lemon Capstone WireFrame.fig in Resources */ = {isa = PBXBuildFile; fileRef = 157813B92AE545E6002229DF /* Little Lemon Capstone WireFrame.fig */; };
 		15A6404E2ADAA48B00B2C99C /* LittleLemonCapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A6404D2ADAA48B00B2C99C /* LittleLemonCapApp.swift */; };
 		15A640522ADAA48C00B2C99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A640512ADAA48C00B2C99C /* Assets.xcassets */; };
 		15A640552ADAA48C00B2C99C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A640542ADAA48C00B2C99C /* Preview Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		15264FE42ADDA47E001B21EA /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
 		15264FE62ADDAA72001B21EA /* Dish+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataClass.swift"; sourceTree = "<group>"; };
 		15264FE72ADDAA72001B21EA /* Dish+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dish+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		157813B92AE545E6002229DF /* Little Lemon Capstone WireFrame.fig */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Little Lemon Capstone WireFrame.fig"; sourceTree = "<group>"; };
 		15A6404A2ADAA48B00B2C99C /* LittleLemonCap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemonCap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A6404D2ADAA48B00B2C99C /* LittleLemonCapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonCapApp.swift; sourceTree = "<group>"; };
 		15A640512ADAA48C00B2C99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,9 +93,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		157813B82AE545E6002229DF /* Figma Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				157813B92AE545E6002229DF /* Little Lemon Capstone WireFrame.fig */,
+			);
+			path = "Figma Prototype";
+			sourceTree = "<group>";
+		};
 		15A640412ADAA48B00B2C99C = {
 			isa = PBXGroup;
 			children = (
+				157813B82AE545E6002229DF /* Figma Prototype */,
 				15264FE62ADDAA72001B21EA /* Dish+CoreDataClass.swift */,
 				15264FE72ADDAA72001B21EA /* Dish+CoreDataProperties.swift */,
 				15A6404C2ADAA48B00B2C99C /* Restaurant */,
@@ -262,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A640552ADAA48C00B2C99C /* Preview Assets.xcassets in Resources */,
+				157813BA2AE545E6002229DF /* Little Lemon Capstone WireFrame.fig in Resources */,
 				15A640522ADAA48C00B2C99C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
